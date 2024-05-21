@@ -39,7 +39,7 @@ const Navbar = () => {
   return (
     <div className={`fixed top-0 right-0 left-0  bg-base-100 z-50 ${
       scrolled
-        ? "transition delay-100  backdrop-blur-sm bg-white/70 border-b rounded-b-2xl border-opacity-30 border-[#74C138]"
+        ? "transition delay-10  backdrop-blur-sm bg-white/70 border-b rounded-b-2xl border-opacity-30 border-[#74C138]"
         : "bg-transparent"
     }`}>
       <div className=" container mx-auto navbar ">
