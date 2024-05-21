@@ -42,7 +42,7 @@ const Navbar = () => {
         ? "transition delay-100  backdrop-blur-sm bg-white/70 border-b rounded-b-2xl border-opacity-30 border-[#74C138]"
         : "bg-transparent"
     }`}>
-      <div className="navbar ">
+      <div className=" container mx-auto navbar ">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
